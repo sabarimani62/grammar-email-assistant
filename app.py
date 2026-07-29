@@ -24,8 +24,8 @@ st.caption("I only help with two things: fixing sentences and drafting emails.")
 #   HF_TOKEN = "your_token_here"
 HF_TOKEN = os.environ.get("HF_TOKEN") or st.secrets.get("HF_TOKEN", None)
 
-MODEL_NAME = "mistralai/Mistral-7B-Instruct-v0.3"
-client = InferenceClient(model=MODEL_NAME, token=HF_TOKEN)
+MODEL_NAME = "Qwen/Qwen2.5-7B-Instruct"
+client = InferenceClient(model=MODEL_NAME, token=HF_TOKEN, provider="auto")
 
 SYSTEM_PROMPT = """You are a narrow-purpose support assistant.
 You are ONLY allowed to do two things:
