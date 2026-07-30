@@ -19,8 +19,6 @@ For anything outside those two tasks, the assistant politely declines and redire
 3. The model either corrects the text / drafts the email, or declines if the request is out of scope.
 4. The response is displayed back in the chat.
 
-## Live Demo
-[Add your deployed Streamlit Cloud link here once deployed]
 
 ## Run It Locally
 ```bash
