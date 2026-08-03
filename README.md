@@ -1,4 +1,4 @@
-# 📝 Grammar & Email Assistant
+# 📝 AI Grammar & Email Assistant
 
 A narrow-purpose AI support chatbot built with **Hugging Face** (free Inference API) and **Streamlit**. Unlike a general chatbot, it is deliberately restricted to two tasks:
 
